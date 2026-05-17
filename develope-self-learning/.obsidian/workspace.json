@@ -1,0 +1,204 @@
+{
+  "main": {
+    "id": "acc91753233f1128",
+    "type": "split",
+    "children": [
+      {
+        "id": "177fe28798b4e6f5",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "1284636d6124f4e1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "利用中转站配置Claude-code环境/利用中转站配置Cluade-code环境.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "利用中转站配置Cluade-code环境"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "d7e33b57a7a8780d",
+    "type": "split",
+    "children": [
+      {
+        "id": "45041862a5c2ec88",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "5a768a78a3f2e899",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "文件列表"
+            }
+          },
+          {
+            "id": "dfac4a5d7e02d7ed",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "搜索"
+            }
+          },
+          {
+            "id": "473ed7adb71fdc4d",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "书签"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "right": {
+    "id": "f267d7cfb5ce7f48",
+    "type": "split",
+    "children": [
+      {
+        "id": "ad624eef5b80e621",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "2e2b727175151d53",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "利用中转站配置Claude-code环境/利用中转站配置Cluade-code环境.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "利用中转站配置Cluade-code环境 的反向链接列表"
+            }
+          },
+          {
+            "id": "3af5e295e7217efd",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "利用中转站配置Claude-code环境/利用中转站配置Cluade-code环境.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "利用中转站配置Cluade-code环境 的出链列表"
+            }
+          },
+          {
+            "id": "910656cde1081515",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "标签"
+            }
+          },
+          {
+            "id": "29c7709d0db32ecb",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "添加笔记属性"
+            }
+          },
+          {
+            "id": "08fb1d85fce31e7b",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "利用中转站配置Claude-code环境/利用中转站配置Cluade-code环境.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "利用中转站配置Cluade-code环境 的大纲"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "canvas:新建白板": false,
+      "daily-notes:打开/创建今天的日记": false,
+      "templates:插入模板": false,
+      "command-palette:打开命令面板": false,
+      "bases:新建数据库": false
+    }
+  },
+  "active": "1284636d6124f4e1",
+  "lastOpenFiles": [
+    "Pasted image 20260517134836.png",
+    "Pasted image 20260517134726.png",
+    "Pasted image 20260517133438.png",
+    "Pasted image 20260517133237.png",
+    "Pasted image 20260517132928.png",
+    "Pasted image 20260517132543.png",
+    "Pasted image 20260517132537.png",
+    "利用中转站配置Claude-code环境/利用中转站配置Cluade-code环境.md",
+    "利用中转站配置Claude-code环境/未命名",
+    "利用中转站配置Claude-code环境",
+    "未命名 1",
+    "创建链接.md",
+    "未命名.md",
+    "欢迎.md"
+  ]
+}
