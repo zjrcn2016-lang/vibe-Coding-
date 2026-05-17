@@ -1,52 +1,45 @@
 ## 📰 ➡️ 🎙️ Blog to Podcast Agent
-This is a Streamlit-based application that allows users to convert any blog post into a podcast. The app uses OpenAI's GPT-4 model for summarization, Firecrawl for scraping blog content, and ElevenLabs API for generating audio. Users simply input a blog URL, and the app will generate a podcast episode based on the blog.
+
+A Streamlit app that converts any blog post into a listenable podcast episode. Paste a URL, get an AI-summarized audio file you can play or download.
 
 ## Features
 
-- **Blog Scraping**: Scrapes the full content of any public blog URL using Firecrawl API.
+- **Blog Scraping**: Fetches content from any public blog URL (direct scrape + Jina Reader fallback).
+- **Summary Generation**: Condenses the article into a conversational podcast script using `gpt-4o-mini`.
+- **Text-to-Speech**: Converts the script to audio using `gpt-4o-mini-tts` with your choice of voice.
+- **Download**: Save the generated podcast as an MP3.
 
-- **Summary Generation**: Creates an engaging and concise summary of the blog (within 2000 characters) using OpenAI GPT-4.
+## Requirements
 
-- **Podcast Generation**: Converts the summary into an audio podcast using the ElevenLabs voice API.
+- Python 3.8+
+- An OpenAI API key — or a compatible proxy (see below)
 
-- **API Key Integration**: Requires OpenAI, Firecrawl, and ElevenLabs API keys to function, entered securely via the sidebar.
+## Installation
 
-## Setup
+```bash
+pip install -r requirements.txt
+```
 
-### Requirements 
+## Running the App
 
-1. **API Keys**:
-    - **OpenAI API Key**: Sign up at OpenAI to obtain your API key.
+```bash
+streamlit run blog_to_podcast_agent.py
+```
 
-    - **ElevenLabs API Key**: Get your ElevenLabs API key from ElevenLabs.
+## Using a Proxy (yunwu.ai)
 
-    - **Firecrawl API Key**: Get your Firecrawl API key from Firecrawl.
+If you can't access the OpenAI API directly, you can use a relay such as [yunwu.ai](https://yunwu.ai):
 
-2. **Python 3.8+**: Ensure you have Python 3.8 or higher installed.
+1. Get your API key from [yunwu.ai](https://yunwu.ai)
+2. In the app sidebar:
+   - **OpenAI API Key**: enter your yunwu.ai key
+   - **Base URL**: change to `https://yunwu.ai/v1`
+3. Everything else works the same — the app calls `gpt-4o-mini` and `gpt-4o-mini-tts` through the relay.
 
-### Installation
-1. Clone this repository:
-   ```bash
-   git clone https://github.com/Shubhamsaboo/awesome-llm-apps
-   cd ai_agent_tutorials/ai_blog_to_podcast_agent
-   ```
+## Configuration
 
-2. Install the required Python packages:
-   ```bash
-   pip install -r requirements.txt
-   ```
-### Running the App
-
-1. Start the Streamlit app:
-   ```bash
-   streamlit run blog_to_podcast_agent.py
-   ```
-
-2. In the app interface:
-    - Enter your OpenAI, ElevenLabs, and Firecrawl API keys in the sidebar.
-
-    - Input the blog URL you want to convert.
-
-    - Click "🎙️ Generate Podcast".
-
-    - Listen to the generated podcast or download it.
+| Sidebar field | Default | Description |
+|---|---|---|
+| OpenAI API Key | — | Your OpenAI or proxy API key |
+| Base URL | `https://api.openai.com/v1` | Change to `https://yunwu.ai/v1` for relay |
+| Voice | `nova` | alloy / echo / fable / onyx / nova / shimmer |
