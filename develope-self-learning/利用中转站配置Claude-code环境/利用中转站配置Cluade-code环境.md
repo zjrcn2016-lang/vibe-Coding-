@@ -34,7 +34,9 @@ C:\Users\用户名\\.claude
   }
 }
 ```
-注意json格式不能用#注释
+
+注意json格式不能用#符号注释，
+
 3、打开claude,因为win10的Powershell的界面太丑了，所以可以去微软商店下载一个windows terminal
 ![Windows Terminal打开Claude](../Pasted%20image%2020260517132928.png)
 
