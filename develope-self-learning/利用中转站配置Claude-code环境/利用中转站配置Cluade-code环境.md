@@ -16,7 +16,7 @@ https://yunwu.apifox.cn/doc-7010249
 C:\Users\用户名\\.claude
 在这里我们需要新建一个settings.json文件来连结中转站
 
-![[Pasted image 20260517132543.png]]
+![settings.json配置示例](../Pasted%20image%2020260517132543.png)
 ```
 {
   "env": {
@@ -36,7 +36,7 @@ C:\Users\用户名\\.claude
 ```
 注意json格式不能用#注释
 3、打开claude,因为win10的Powershell的界面太丑了，所以可以去微软商店下载一个windows terminal
-![[Pasted image 20260517132928.png]]
+![Windows Terminal打开Claude](../Pasted%20image%2020260517132928.png)
 
 通过Terminal，打开Claude,建议在项目根目录中打开。
 
@@ -45,10 +45,10 @@ C:\Users\用户名\\.claude
 cluade
 ```
 
-![[Pasted image 20260517133237.png|697]]
+![Claude项目目录界面](../Pasted%20image%2020260517133237.png)
 
 PS：建议大家在中转站中新建一个令牌，选择对应的特价的分组,来节省token的消耗。
-![[Pasted image 20260517133438.png|697]]
+![中转站令牌配置](../Pasted%20image%2020260517133438.png)
 
 
 4、CC-Switch可视化配置工具。
@@ -57,4 +57,4 @@ PS：建议大家在中转站中新建一个令牌，选择对应的特价的分
 因为我们每次改模型或者以后切换中转站，总是要打开settings.json文件很麻烦。所以推荐使用这个工具可以方便我们修改配置
 
 可视化界面如图，大家自行摸索即可。
-![[Pasted image 20260517134836.png]]
+![CC-Switch可视化界面](../Pasted%20image%2020260517134836.png)
